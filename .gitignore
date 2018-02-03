@@ -1,0 +1,3 @@
+.DS_Store
+_data/*
+!_data/sources/
