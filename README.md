@@ -1,6 +1,10 @@
 # Burp Pro as a Docker Container
 
-Full description can be found online: https://www.marcolancini.it/2018/blog-docker-burp/
+How to run any GUI application (and Burp Pro in particular) from Docker
+
+A full description can be found on my website: https://www.marcolancini.it/2018/blog-docker-burp/
+
+![Burp in Docker](https://www.marcolancini.it/images/posts/blog_docker_burp_3.jpg)
 
 
 ## Usage
