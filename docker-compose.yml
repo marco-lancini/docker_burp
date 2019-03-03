@@ -10,5 +10,4 @@ services:
             - /tmp/.X11-unix:/tmp/.X11-unix
             - ./_data/:/home/tester/
         env_file: ./burp.env
-        # command: java -jar -Xmx1024m /home/tester/sources/burp_pro.jar
         command: sh /home/tester/run.sh
