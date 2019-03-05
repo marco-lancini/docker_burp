@@ -9,6 +9,5 @@ services:
         volumes:
             - /tmp/.X11-unix:/tmp/.X11-unix
             - ./_data/:/home/tester/
-        environment:
-            DISPLAY: ${LOCAL_IP}:0
-        command: java -jar -Xmx1024m /home/tester/sources/burp_pro.jar
+        env_file: ./burp.env
+        command: sh /home/tester/run.sh
