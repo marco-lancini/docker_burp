@@ -1,7 +1,3 @@
 .DS_Store
-_data/*
-_data/sources/burp_free.jar
-_data/sources/burp_pro.jar
-!_data/sources/burp_free.jar.tpl
-!_data/sources/burp_pro.jar.tpl
+
 burp.env
