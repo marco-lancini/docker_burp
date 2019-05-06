@@ -15,8 +15,8 @@ A full description can be found on my website: https://www.marcolancini.it/2018/
    * Copy the template: `cp burp.env.tpl burp.env`
    * A possible configuration is the following:  
 ```
+DISPLAY=${LOCAL_IP}:0
 ENV_MEM_JVM=2048m
-DISPLAY=localhost:0
 ENV_BURP_PRO=0        # 1 for Burp Pro, 0 for Free version
 ``` 
 4. Start services: `docker-compose up`
