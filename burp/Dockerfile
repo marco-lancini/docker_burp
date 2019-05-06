@@ -3,7 +3,6 @@ FROM ubuntu:18.04
 # Install Java
 RUN sed 's/main$/main universe/' -i /etc/apt/sources.list && \
     apt-get update && apt-get install -y wget ca-certificates software-properties-common && \
-    add-apt-repository -y ppa:openjdk-r/ppa && \
     apt-get update && apt-get install -y openjdk-8-jdk openjdk-8-jre libxext-dev libxrender-dev libxtst-dev && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
